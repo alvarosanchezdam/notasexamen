@@ -15,6 +15,9 @@
 		33E32E781E65FA7D00ADB54D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E32E761E65FA7D00ADB54D /* LaunchScreen.storyboard */; };
 		33E32E831E65FA7E00ADB54D /* NotasExamenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E32E821E65FA7E00ADB54D /* NotasExamenTests.swift */; };
 		33E32E8E1E65FA7E00ADB54D /* NotasExamenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E32E8D1E65FA7E00ADB54D /* NotasExamenUITests.swift */; };
+		33E32E9C1E65FB0900ADB54D /* descarga.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 33E32E9B1E65FB0900ADB54D /* descarga.jpeg */; };
+		33E32E9E1E65FB7D00ADB54D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E32E9D1E65FB7D00ADB54D /* TableViewController.swift */; };
+		33E32EA01E65FCB700ADB54D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E32E9F1E65FCB700ADB54D /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		33E32E891E65FA7E00ADB54D /* NotasExamenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotasExamenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E32E8D1E65FA7E00ADB54D /* NotasExamenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotasExamenUITests.swift; sourceTree = "<group>"; };
 		33E32E8F1E65FA7E00ADB54D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E32E9B1E65FB0900ADB54D /* descarga.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = descarga.jpeg; sourceTree = "<group>"; };
+		33E32E9D1E65FB7D00ADB54D /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		33E32E9F1E65FCB700ADB54D /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +108,12 @@
 				33E32E6A1E65FA7D00ADB54D /* AppDelegate.swift */,
 				33E32E6C1E65FA7D00ADB54D /* ViewController.swift */,
 				33E32E6E1E65FA7D00ADB54D /* Main.storyboard */,
+				33E32E9F1E65FCB700ADB54D /* SecondViewController.swift */,
+				33E32E9D1E65FB7D00ADB54D /* TableViewController.swift */,
 				33E32E741E65FA7D00ADB54D /* Assets.xcassets */,
 				33E32E761E65FA7D00ADB54D /* LaunchScreen.storyboard */,
 				33E32E791E65FA7D00ADB54D /* Info.plist */,
+				33E32E9B1E65FB0900ADB54D /* descarga.jpeg */,
 				33E32E711E65FA7D00ADB54D /* NotasExamen.xcdatamodeld */,
 			);
 			path = NotasExamen;
@@ -238,6 +247,7 @@
 				33E32E781E65FA7D00ADB54D /* LaunchScreen.storyboard in Resources */,
 				33E32E751E65FA7D00ADB54D /* Assets.xcassets in Resources */,
 				33E32E701E65FA7D00ADB54D /* Main.storyboard in Resources */,
+				33E32E9C1E65FB0900ADB54D /* descarga.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +275,8 @@
 				33E32E6D1E65FA7D00ADB54D /* ViewController.swift in Sources */,
 				33E32E6B1E65FA7D00ADB54D /* AppDelegate.swift in Sources */,
 				33E32E731E65FA7D00ADB54D /* NotasExamen.xcdatamodeld in Sources */,
+				33E32EA01E65FCB700ADB54D /* SecondViewController.swift in Sources */,
+				33E32E9E1E65FB7D00ADB54D /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
